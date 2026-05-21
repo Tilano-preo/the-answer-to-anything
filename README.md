@@ -7,5 +7,15 @@
 4. make
 5. ./ask
 
+## Reproducible Build
+
+Build:
+
+docker build -t ask-repro .
+
+Run:
+
+docker run --rm ask-repro
+
 ## security:
-sha256: e7ad9ad398839c5fc33b9787bee988f4ba2c02e5fc62d7b9d524a3fc38ed541f
+sha256: bf26525f91410a91b70c99c57c48234d06b3b5513895b63a6b3524d64290d32f
